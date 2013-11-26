@@ -16,8 +16,13 @@
 		E5409B6017B99F3900113C51 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E5409B5F17B99F3900113C51 /* Default.png */; };
 		E5409B6217B99F3900113C51 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5409B6117B99F3900113C51 /* Default@2x.png */; };
 		E5409B6417B99F3900113C51 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5409B6317B99F3900113C51 /* Default-568h@2x.png */; };
-		E5409B6717B99F3900113C51 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5409B6517B99F3900113C51 /* MainStoryboard.storyboard */; };
 		E5409B6A17B99F3900113C51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5409B6917B99F3900113C51 /* ViewController.m */; };
+		E55E18F6181DAF810033BE76 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55E18F5181DAF810033BE76 /* Storyboard.storyboard */; };
+		E5E644C51824DCCA001BBBFC /* photo0.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E644C01824DCCA001BBBFC /* photo0.png */; };
+		E5E644C61824DCCA001BBBFC /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E644C11824DCCA001BBBFC /* photo1.png */; };
+		E5E644C71824DCCA001BBBFC /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E644C21824DCCA001BBBFC /* photo2.png */; };
+		E5E644C81824DCCA001BBBFC /* photo3.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E644C31824DCCA001BBBFC /* photo3.png */; };
+		E5E644C91824DCCA001BBBFC /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E644C41824DCCA001BBBFC /* photo4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +39,14 @@
 		E5409B5F17B99F3900113C51 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E5409B6117B99F3900113C51 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E5409B6317B99F3900113C51 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		E5409B6617B99F3900113C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E5409B6817B99F3900113C51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E5409B6917B99F3900113C51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E55E18F5181DAF810033BE76 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		E5E644C01824DCCA001BBBFC /* photo0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo0.png; sourceTree = "<group>"; };
+		E5E644C11824DCCA001BBBFC /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
+		E5E644C21824DCCA001BBBFC /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		E5E644C31824DCCA001BBBFC /* photo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo3.png; sourceTree = "<group>"; };
+		E5E644C41824DCCA001BBBFC /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		E5409B4117B99F3900113C51 = {
 			isa = PBXGroup;
 			children = (
+				E55E18F5181DAF810033BE76 /* Storyboard.storyboard */,
 				E5409B5317B99F3900113C51 /* pagingandzoom */,
 				E5409B4C17B99F3900113C51 /* Frameworks */,
 				E5409B4B17B99F3900113C51 /* Products */,
@@ -83,9 +94,13 @@
 		E5409B5317B99F3900113C51 /* pagingandzoom */ = {
 			isa = PBXGroup;
 			children = (
+				E5E644C01824DCCA001BBBFC /* photo0.png */,
+				E5E644C11824DCCA001BBBFC /* photo1.png */,
+				E5E644C21824DCCA001BBBFC /* photo2.png */,
+				E5E644C31824DCCA001BBBFC /* photo3.png */,
+				E5E644C41824DCCA001BBBFC /* photo4.png */,
 				E5409B5C17B99F3900113C51 /* AppDelegate.h */,
 				E5409B5D17B99F3900113C51 /* AppDelegate.m */,
-				E5409B6517B99F3900113C51 /* MainStoryboard.storyboard */,
 				E5409B6817B99F3900113C51 /* ViewController.h */,
 				E5409B6917B99F3900113C51 /* ViewController.m */,
 				E5409B5417B99F3900113C51 /* Supporting Files */,
@@ -162,7 +177,12 @@
 				E5409B6017B99F3900113C51 /* Default.png in Resources */,
 				E5409B6217B99F3900113C51 /* Default@2x.png in Resources */,
 				E5409B6417B99F3900113C51 /* Default-568h@2x.png in Resources */,
-				E5409B6717B99F3900113C51 /* MainStoryboard.storyboard in Resources */,
+				E55E18F6181DAF810033BE76 /* Storyboard.storyboard in Resources */,
+				E5E644C51824DCCA001BBBFC /* photo0.png in Resources */,
+				E5E644C61824DCCA001BBBFC /* photo1.png in Resources */,
+				E5E644C71824DCCA001BBBFC /* photo2.png in Resources */,
+				E5E644C81824DCCA001BBBFC /* photo3.png in Resources */,
+				E5E644C91824DCCA001BBBFC /* photo4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +208,6 @@
 				E5409B5717B99F3900113C51 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E5409B6517B99F3900113C51 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5409B6617B99F3900113C51 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -263,7 +275,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pagingandzoom/pagingandzoom-Prefix.pch";
 				INFOPLIST_FILE = "pagingandzoom/pagingandzoom-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -274,7 +288,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pagingandzoom/pagingandzoom-Prefix.pch";
 				INFOPLIST_FILE = "pagingandzoom/pagingandzoom-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -298,6 +314,7 @@
 				E5409B6F17B99F3900113C51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
